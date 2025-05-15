@@ -1,23 +1,33 @@
-# Randomade v1.3
+# Randomade v1.4.4
 ==============
 
 **Randomade** is built using the `random` library, which comes preinstalled with Python.  
-It is specifically built for getting random values. Currently, you can get random letters and numbers, both with custom ranges (e.g. between A and T or 3 and 26).
+It is specifically built for getting random values. You can currently get:
+- Random letters (custom range)
+- Random numbers (custom range)
+- Random hex codes (no range)
 
 ---
 
 ## Docs
-----
+-------
+
+## Usage
+--------
 
 ### **rand_number**  
 The `rand_number()` function is for generating a random integer between 2 values (`min_num` and `max_num`).  
-The syntax is: `rand_number(min_num, max_num)`  
-`min_num` and `max_num` can be any English number.
+The syntax is: `rand_number(min_num, max_num)`, which returns a random number.
+`min_num` and `max_num` can be any number.
 
 ### **rand_letter**  
 The `rand_letter()` function is for generating a random letter between 2 letters (`min` and `max`).  
-The syntax is: `rand_letter(min, max)`  
-`min` and `max` can be any English letter.
+The syntax is: `rand_letter(min, max)`, which returns a random letter.
+`min` and `max` can be any letter.
+
+### **rand_hex**
+The `rand_hex()` is a function used for generating a random hex code.
+The syntax is: `rand_hex()`, which returns a random hex code.
 
 ---
 
@@ -58,4 +68,4 @@ The syntax is: `rand_letter(min, max)`
 ## Fun fact
 ---------
 I wrote all the `rand_letter()` function while waiting for an X-ray in the ER
-after breaking my hand.
+after breaking my thumb.
